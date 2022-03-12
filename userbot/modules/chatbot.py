@@ -23,7 +23,7 @@ async def ngapain_rep(message):
         data = requests.get(hayulo_link_apa)
         if data.status_code == 200:
             return (data.json())["msg"]
-        LOGS.info("ERROR: API chatbot sedang down, report ke @tedesupport.")
+        LOGS.info(f"ERROR: API Adam-Chatbot sedang down\nReport ke @SkyiArul.")
     except Exception as e:
         LOGS.info(str(e))
 
@@ -35,14 +35,14 @@ async def chat_bot_toggle(event):
         if not is_tede(chat_id):
             set_tede(chat_id)
             return await edit_or_reply(event, "**ChatBot Berhasil Diaktifkan!**")
-        await edit_or_reply(event, "ChatBot Sudah Diaktifkan.")
+        await edit_or_reply(event, "Adam-ChatBot Sudah Diaktifkan.")
     elif status == "off":
         if is_tede(chat_id):
             rem_tede(chat_id)
             return await edit_or_reply(event, "**ChatBot Berhasil Dinonaktifkan!**")
-        await edit_or_reply(event, "ChatBot Sudah Dinonaktifkan.")
+        await edit_or_reply(event, "Adam-ChatBot Sudah Dinonaktifkan.")
     else:
-        await edit_or_reply(event, "**Usage:** `.chatbot` <on/off>")
+        await edit_or_reply(event, f"**Usage:** `{cmd}chatbot` <on/off>")
 
 
 @man_cmd(pattern="chatbot(?: |$)(.*)")
@@ -73,7 +73,7 @@ CMD_HELP.update(
     {
         "chatbot": f"**Plugin : **`chatbot`\
       \n\n  •  **Syntax :** `{cmd}chatbot` <on/off>\
-      \n  •  **Function :** Untuk membalas chat dengan chatbot AI.\
+      \n  •  **Function :** Untuk membalas chat dengan Adam-Chatbot AI.\
       "
     }
 )
