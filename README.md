@@ -1,7 +1,7 @@
-#deploy lewat bot
+### Deploy To Heroku
+<a href="https://heroku.com/deploy?template=https://github.com/UserKontol/Man-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue.svg?style=for-the-badge&logo="></a>
 
-https://telegram.dog/XTZ_HerokuBot?start=VXNlcktvbnRvbC9NYW4tVXNlcmJvdCBNYW4tdXNlcmJvdA
+##
 
-Deploy to heroku
-
-https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FUserKontol%2FMan-Userbot%2Fblob%2FMan-Userbot%2FREADME.md&template=https%3A%2F%2Fgithub.com%2Fuserkontol%2Fman-userbot
+### Deploy Pakai Bot Telegram!
+<a href="https://telegram.dog/XTZ_HerokuBot?start=VXNlcktvbnRvbC9NYW4tVXNlcmJvdCBNYW4tdXNlcmJvdA"><img src="https://img.shields.io/badge/Deploy%20Via%20Bot-green.svg?style=for-the-badge&logo="></a>
