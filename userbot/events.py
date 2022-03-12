@@ -194,17 +194,18 @@ def register(**args):
                 if not disable_errors:
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
-                    text = "**✘ MAN-USERBOT ERROR REPORT ✘**\n\n"
-                    link = "[Group Support](https://t.me/SharingUserbot)"
+                    text = "**✘ ADAM-USERBOT ERROR REPORT ✘**\n\n"
+                    link = "[Arul](https://t.me/SkyiArul)"
+                    ling = "[Dion](https://t.me/Royzu)"
                     text += "Jika mau, Anda bisa melaporkan error ini, "
-                    text += f"Cukup forward saja pesan ini ke {link}.\n\n"
+                    text += f"Cukup forward saja pesan ini ke {link} atau {ling}.\n\n"
 
                     ftext = "========== DISCLAIMER =========="
                     ftext += "\nFile ini HANYA diupload di sini,"
                     ftext += "\nkami hanya mencatat fakta error dan tanggal,"
                     ftext += "\nkami menghormati privasi Anda."
                     ftext += "\nJika mau, Anda bisa melaporkan error ini,"
-                    ftext += "\ncukup forward saja pesan ini ke @SharingUserbot"
+                    ftext += "\ncukup forward saja pesan ini ke @SkyiArul atau @Royzu"
                     ftext += "\n================================\n\n"
                     ftext += "--------BEGIN USERBOT TRACEBACK LOG--------\n"
                     ftext += "\nTanggal : " + date
