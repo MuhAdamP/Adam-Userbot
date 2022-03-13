@@ -5,3 +5,5 @@
 
 ### Deploy Pakai Bot Telegram!
 <a href="https://telegram.dog/XTZ_HerokuBot?start=VXNlcktvbnRvbC9NYW4tVXNlcmJvdCBNYW4tdXNlcmJvdA"><img src="https://img.shields.io/badge/Deploy%20Via%20Bot-green.svg?style=for-the-badge&logo="></a>
+
+MASIH TAHAP UJI COBA YA user botnya
