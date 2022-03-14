@@ -567,16 +567,16 @@ with bot:
                 result = builder.photo(
                     file=logoman,
                     link_preview=False,
-                    text=f"**✗ Adam-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**✗ Adam-Userbot Inline Menu ✗**\n\n✣ **Owner** [Adam](tg://user?id=1878075436) & [Dion](tg://user?id=1780335957) 👑\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Man - Userbot",
-                    url="https://t.me/SharingUserbot",
+                    description="Repository Adam - Userbot",
+                    url="https://t.me/wibu_telegram",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Adam - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Adam](https://t.me/userkontol)\n✣ **Support :** @wibu_telegram\n✣ **Repository :** [Adam-Userbot](https://github.com/userkontol/Adam-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Adam - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Adam](https://t.me/SkyiArul)\n✣ **Support :** @wibu_telegram\n✣ **Repository :** [Adam-Userbot](https://github.com/userkontol/Adam-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/wibu_telegram"),
@@ -622,8 +622,8 @@ with bot:
             else:
                 result = builder.article(
                     title="✗ Adam-Userbot ✗",
-                    description="Man - UserBot | Telethon",
-                    url="https://t.me/SharingUserbot",
+                    description="Adam - UserBot | Telethon",
+                    url="https://t.me/wibu_telegram",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
                     text=f"**Adam - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @wibu_telegram\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
@@ -645,7 +645,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**✗ Adam-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✗ Adam-Userbot Inline Menu ✗**\n\n✣ **Owner** [Arul](tg://user?id=1878075436) & [Dion](tg://user?id=1780335957)\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=logoman,
