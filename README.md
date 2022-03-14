@@ -1,5 +1,5 @@
 ### Deploy To Heroku
-<a href="https://heroku.com/deploy?template=https://github.com/UserKontol/Man-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue.svg?style=for-the-badge&logo="></a>
+<a href="https://heroku.com/deploy?template=https://github.com/UserKontol/Adam-Userbot"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue.svg?style=for-the-badge&logo="></a>
 
 ##
 
