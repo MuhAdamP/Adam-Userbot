@@ -142,8 +142,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "SharingUserbot")
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+GROUP = os.environ.get("GROUP", "wibu_telegram")
+CHANNEL = os.environ.get("CHANNEL", "wibu_telegram")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -158,7 +158,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/userkontol/adam-Userbot.git"
 )
 
 # Custom Name Sticker Pack
@@ -179,7 +179,7 @@ GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN") or "/usr/bin/google-chro
 
 # OpenWeatherMap API Key
 OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
-WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "Jakarta")
+WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", "kendari")
 
 # Anti Spambot Config
 ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
@@ -218,7 +218,7 @@ BOT_VER = os.environ.get("BOT_VER", "3.1.7")
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/f5fadd7d0274d291c0553.jpg"
 )
 
 INLINE_PIC = (
@@ -562,12 +562,12 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@SharingUserbot"):
+            if event.query.user_id == uid and query.startswith("@wibu_telegram"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=logoman,
                     link_preview=False,
-                    text=f"**✗ Man-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
+                    text=f"**✗ Adam-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
@@ -576,12 +576,12 @@ with bot:
                     description="Repository Man - Userbot",
                     url="https://t.me/SharingUserbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Support :** @Lunatic0de\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Adam - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Adam](https://t.me/userkontol)\n✣ **Support :** @wibu_telegram\n✣ **Repository :** [Adam-Userbot](https://github.com/userkontol/Adam-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/wibu_telegram"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/userkontol/Adam-Userbot"
                             ),
                         ],
                     ],
@@ -621,16 +621,16 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✗ Man-Userbot ✗",
+                    title="✗ Adam-Userbot ✗",
                     description="Man - UserBot | Telethon",
                     url="https://t.me/SharingUserbot",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text=f"**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @Lunatic0de\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**Adam - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **UserMode:** [{user.first_name}](tg://user?id={user.id})\n✣ **Assistant:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**Support:** @wibu_telegram\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
-                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/SharingUserbot"),
+                            custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/wibu_telegram"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ", "https://github.com/mrismanaziz/Man-Userbot"
+                                "ʀᴇᴘᴏ", "https://github.com/userkontol/Adam-Userbot"
                             ),
                         ],
                     ],
@@ -645,7 +645,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 current_page_number = int(looters)
                 buttons = paginate_help(current_page_number, dugmeler, "helpme")
-                text = f"**✗ Man-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
+                text = f"**✗ Adam-Userbot Inline Menu ✗**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
                     file=logoman,
