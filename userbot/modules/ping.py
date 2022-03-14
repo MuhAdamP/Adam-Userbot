@@ -124,10 +124,10 @@ async def _(pong):
     )
 
 
-# .keping & kping Coded by Koala
+# Uwoh segss brutal crot crot
 
 
-@man_cmd(pattern=r"kping$")
+@man_cmd(pattern=r"crot$")
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
@@ -149,11 +149,11 @@ async def _(pong):
     await kping.edit("8===✊D")
     await kping.edit("8===✊D💦")
     await kping.edit("8====D💦💦")
-    await kping.edit("**CROOTTTT PINGGGG!**")
+    await kping.edit("**CROOTTTT AH MANTAP!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await kping.edit(
-        f"**NGENTOT!! 🐨**\n**KAMPANG** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
+        f"**UWOH SEGSSS!! 🔥**\n**Durasi Crot** : %sms\n**Durasi Coli** : {uptime}🕛" % (duration)
     )
 
 
