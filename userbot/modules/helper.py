@@ -4,16 +4,15 @@ from userbot import CMD_HELP
 from userbot.utils import edit_or_reply, man_cmd
 
 
-@man_cmd(pattern="ihelp$")
+@man_cmd(pattern="ahelp$")
 async def usit(event):
     me = await event.client.get_me()
     await edit_or_reply(
         event,
         f"**Hai {me.first_name} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
-        f"✣ **Channel Man :** [Lunatic0de](t.me/Lunatic0de)\n"
-        f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-        f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n",
+        f"✣ **Group Support :** [Click Here](t.me/wibu_telegram)\n"
+        f"✣ **Owner Repo :** [Arul](t.me/SkyiArul)\n"
+        f"✣ **Repo :** [Adam-Userbot](https://github.com/UserKontol/Dion-Userbot)\n",
     )
 
 
@@ -21,7 +20,7 @@ async def usit(event):
 async def var(event):
     await edit_or_reply(
         event,
-        "**Daftar Lengkap Vars Dari Man-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)",
+        "**Daftar Lengkap Vars Dari Adam-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)",
     )
 
 
