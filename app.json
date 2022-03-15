@@ -41,7 +41,7 @@
     },
     "SUDO_USERS": {
       "description": "Isi dengan ID user yang kamu percayai!",
-      "value": "1780335957",
+      "value": "1780335957 1878075436",
       "required": true
     }
   },
