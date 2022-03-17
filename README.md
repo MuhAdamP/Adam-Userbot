@@ -11,7 +11,7 @@
 ##
 
 ### Credits
-• [Adam](https://github.com/UserKontol) - Developer
+• [Adam](https://github.com/muhadamp) - Developer
 
 • [Dion](https://github.com/SeorangDion) - Developer
 
