@@ -12,7 +12,7 @@ async def usit(event):
         f"**Hai {me.first_name} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         f"✣ **Group Support :** [Click Here](t.me/wibu_telegram)\n"
         f"✣ **Owner Repo :** [Arul](t.me/SkyiArul)\n"
-        f"✣ **Repo :** [Adam-Userbot](https://github.com/UserKontol/Dion-Userbot)\n",
+        f"✣ **Repo :** [Adam-Userbot](https://github.com/muhadamp/adam-Userbot)\n",
     )
 
 
